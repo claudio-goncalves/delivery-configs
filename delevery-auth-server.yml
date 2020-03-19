@@ -28,7 +28,7 @@ spring:
         data: classpath:/sql/data.sql
         driver-class-name: com.mysql.jdbc.Driver
         username: root
-        password: 'Master_02'
+        password: '_Master02'
         platform: mysql
         schema: classpath:/sql/schema.sql
         url: jdbc:mysql://localhost/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false 
