@@ -29,7 +29,7 @@ spring:
         driver-class-name: org.postgresql.Driver
         username: root
         password: 'G3st@ao
-        platform: mysql
+        platform: postgres
         schema: classpath:/sql/schema.sql
         url: jdbc:postgresql://localhost:5432/oauth?currentSchema=public
     jpa:
